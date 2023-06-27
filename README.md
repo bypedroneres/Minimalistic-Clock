@@ -30,7 +30,7 @@ The Clock Project features a clean and modern design. The interface is designed 
 
 <h4>✹ Link to the Project ✹</h4>
 
-<h5>[https://example.com/clock-project](https://bypedroneres.github.io/Minimalistic-Clock/)</h5>
+<h5>https://bypedroneres.github.io/Minimalistic-Clock/</h5>
 
 <h4>✹ Thanks for your interest! ✹</h4>
 

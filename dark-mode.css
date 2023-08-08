@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-left: 5px; /* Add margin-left */
+    margin-left: 5px; 
 }
 
 .behance img {
@@ -73,3 +73,28 @@ body {
     font-size: 20px;
     margin-top: 10px;
 }
+  /* Media queries for responsiveness */
+  @media (max-width: 600px) {
+    .clock {
+      font-size: 40px;
+    }
+  
+    .behance img {
+      width: 15px;
+      height: 15px;
+      margin-right: 2px;
+      margin-left: 2px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 10px 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .date {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }

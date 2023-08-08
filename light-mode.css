@@ -1,0 +1,103 @@
+body {
+    background-color: #F4F4F4;
+    color: #636363;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90px;
+    color: #636363;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .time {
+    color: #636363;
+  }
+  
+  .image-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .behance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .behance img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    filter: invert(1) opacity(0.6); 
+  }
+  
+  button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    padding: 15px 15px;
+    background-color: #F4F4F4;
+    color: #636363;
+    border: 2px solid #636363;
+    cursor: pointer;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    background-color: #636363;
+    color: #F4F4F4;
+    border: 2px solid #F4F4F4;
+  }
+  .date {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 600px) {
+    .clock {
+      font-size: 40px;
+    }
+  
+    .behance img {
+      width: 15px;
+      height: 15px;
+      margin-right: 2px;
+      margin-left: 2px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 10px 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .date {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+  
